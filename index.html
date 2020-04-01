@@ -12,9 +12,9 @@
   <section class='calculator-section'>
     <form>
       <label>Bill Amount:</label>
-      <input type='text' />
+      <input class='bill-amount' type='text' />
       <label>Number of People:</label>
-      <input type='text' />
+      <input class='num-of-people' type='text' />
       <label>Rate Your Service:</label>
       <select default>
         <option selected='selected'
@@ -23,17 +23,15 @@
           value='0'>--</option>
           <option value='0.3'>Fantastic! - 30%</option>
           <option value='0.2'>Great - 20%</option>
-          <option value='0.2'>Good - 15%</option>
-          <option value='0.2'>Bad - 10%</option>
-          <option value='0.2'>Teribble! - 0%</option>
+          <option value='0.15'>Good - 15%</option>
+          <option value='0.1'>Bad - 10%</option>
+          <option value='0'>Teribble! - 0%</option>
         </select>
-        <button type='button'>Calculate</button>
-        <button type='button'>Clear</button>
+        <button class='calc-btn' type='button'>Calculate</button>
+        <button class='clear-btn' type='button'>Clear</button>
     </form>
   </section>
-  <section class='tip-section'>
 
-  </section>
   <script type="text/javascript" src="main.js"></script>
 </body>
 </html>
