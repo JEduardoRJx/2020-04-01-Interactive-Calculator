@@ -5,4 +5,16 @@
   margin: 0;
   padding: 0;
   transition: ease all .3s;
+  color: white;
+}
+
+body {
+  background: linear-gradient(135deg, #9e2a2a, #ed9044);
+  height: 100vh;
+}
+
+button,
+input,
+select {
+  color: black;
 }
