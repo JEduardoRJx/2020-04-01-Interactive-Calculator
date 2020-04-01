@@ -3,11 +3,37 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Tip Calculator</title>
+  <title>Split that Bill!</title>
   <link href="https://fonts.googleapis.com/css2?family=Baloo+Thambi+2:wght@400;500;600&display=swap" rel="stylesheet">
   <link rel="stylesheet" type="text/css" href="styles.css">
 </head>
 <body>
+  <h1>Split that Bill!</h1>
+  <section class='calculator-section'>
+    <form>
+      <label>Bill Amount:</label>
+      <input type='text' />
+      <label>Number of People:</label>
+      <input type='text' />
+      <label>Rate Your Service:</label>
+      <select default>
+        <option selected='selected'
+          disabled
+          hidden
+          value='0'>--</option>
+          <option value='0.3'>Fantastic! - 30%</option>
+          <option value='0.2'>Great - 20%</option>
+          <option value='0.2'>Good - 15%</option>
+          <option value='0.2'>Bad - 10%</option>
+          <option value='0.2'>Teribble! - 0%</option>
+        </select>
+        <button type='button'>Calculate</button>
+        <button type='button'>Clear</button>
+    </form>
+  </section>
+  <section class='tip-section'>
+
+  </section>
   <script type="text/javascript" src="main.js"></script>
 </body>
 </html>

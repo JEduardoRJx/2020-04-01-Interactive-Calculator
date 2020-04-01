@@ -1,3 +1,8 @@
 * {
-  font-family: 'Baloo Thambi 2', cursive;
+  box-sizing: border-box;
+  /* font-family: 'Baloo Thambi 2', cursive; */
+  font-family: 'Baloo Thambi 2';
+  margin: 0;
+  padding: 0;
+  transition: ease all .3s;
 }
