@@ -10,3 +10,8 @@ function handlePageLoad() {
   // disable the buttons
   disableBtns()
 }
+
+function disableBtns() {
+  calcBtn.disabled = true;
+  clearBtn.disabled = true;
+}
